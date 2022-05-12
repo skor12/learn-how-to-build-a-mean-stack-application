@@ -1,5 +1,3 @@
-docker-compose.yml
-
 version: '3.7'
 services:
 # REST API running on Node JS container
