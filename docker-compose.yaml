@@ -3,7 +3,7 @@ services:
 # REST API running on Node JS container
  app:
    container_name: lafs-api
-   restart: always
+   # restart: always
    build: .
    ports:
     - '3000:3000'
